@@ -5,14 +5,11 @@
 
   <body>
     <nav class="nav">
+      {% include logos.html %}
       <div class="nav-container">
-          <div class="images-head">
-              <img src="{{ site.baseurl }}/_sass/_img/isir.png" alt="ISIR" height="42" width="42">
-              <img src="{{ site.baseurl }}/_sass/_img/upmc.png" alt="UPMC" height="42" width="42">
-              <img src="{{ site.baseurl }}/_sass/_img/cnrs.jpg" alt="CNRS" height="42" width="42">
-          </div>
+
         <a href="{{ site.baseurl }}/">
-          <h2 class="nav-title">{{ site.title }}</h2>
+          <h2 class="nav-title">{{ site.title }} : Enginnering blog about robot control</h2>
         </a>
         <ul>
           <li><a href="{{ '/about' | prepend: site.url }}">About</a></li>

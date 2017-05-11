@@ -2,11 +2,14 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          PadoZo Dynamics
+title:          SPUIRC
 paginate:       5
 baseurl:        ""
 url:            "https://github.com/syroco"
 
+# Image directory
+include: 
+    - _img
 # Assets
 sass:
   sass_dir:     _sass
