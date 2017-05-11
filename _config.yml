@@ -6,7 +6,7 @@ collections:
     relative_permalinks: true
     
 # Setup
-title:          "SPUIRC : Robot Control"
+title:          "SPUIRC "
 paginate:       5
 baseurl:        ""
 url:            "https://syroco.github.io"
