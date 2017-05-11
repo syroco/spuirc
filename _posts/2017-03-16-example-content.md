@@ -131,4 +131,21 @@ and `<br>` for line breaks.
 
 <br>
 
+# Math formulas
+
+$$ 
+
+\begin{align}
+ f(x) &= \pi \left\{ x^4 + 7x^3 + 2x^2 \right.\nonumber\\
+ &\qquad \left. {} + 10x + 12 \right\}
+\end{align}
+
+ $$
+
+
+
+
+
+
+
 _The end_

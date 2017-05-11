@@ -14,7 +14,6 @@ url:            "https://syroco.github.io"
 # Image directory
 include: 
     - _img
-    - _posts
 # Assets
 sass:
   sass_dir:     _sass
@@ -22,17 +21,39 @@ sass:
 
 # Build settings
 markdown:       kramdown
-hightlight:     rouge
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
+
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
 # About
 author:
   name:         Antoine Hoarau
   url:          https://ahoarau.github.io
-  email:        hoarau.robotics@gmail;com
+  email:        hoarau.robotics@gmail.com
 
 # Custom vars
 version:        0.1.0
 github:
-  repo:         https://github.com/syroco/spuirc
+  repo:         https://github.com/syroco/syroco.github.io
 
 # Gems
 gems:
