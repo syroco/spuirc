@@ -1,25 +1,32 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rouge
-
 # Permalinks
-permalink:        pretty
-gems:             [jekyll-paginate, jekyll-gist]
+permalink:      /:year-:month-:day/:title
+
 # Setup
-title:            PadoZo Dynamics
-tagline:          'Engineering blog'
-description:      'How to control a robotic arm using modern control methods.'
-url:              teams.isir.upmc.fr/SYROCO/
-baseurl:          /
+title:          PadoZo Dynamics
+paginate:       5
+baseurl:        ""
+url:            "https://github.com/syroco"
 
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+hightlight:     rouge
+# About
 author:
-  name:           'Antoine Hoarau'
-  url:            https://ahoarau.github.io
-
-paginate:         5
+  name:         Antoine Hoarau
+  url:          https://ahoarau.github.io
+  email:        hoarau.robotics@gmail;com
 
 # Custom vars
-version:          0.1.0
-
+version:        0.1.0
 github:
-  repo:           https://github.com/syroco/
+  repo:         https://github.com/syroco/spuirc
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
