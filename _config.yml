@@ -1,8 +1,13 @@
 # Permalinks
-permalink:      /:year-:month-:day/:title
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+    
+#permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          SPUIRC
+title:          "SPUIRC : Robot Control"
 paginate:       5
 baseurl:        ""
 url:            "https://github.com/syroco"
