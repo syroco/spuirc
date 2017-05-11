@@ -46,8 +46,8 @@ kramdown:
 
 # About
 author:
-  name:         Antoine Hoarau
-  url:          https://ahoarau.github.io
+  name:         ISIR-UPMC-CNRS
+  url:          www.isir.upmc.fr
   email:        hoarau.robotics@gmail.com
 
 # Custom vars
