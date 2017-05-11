@@ -9,7 +9,7 @@ collections:
 title:          "SPUIRC : Robot Control"
 paginate:       5
 baseurl:        ""
-url:            "https://github.com/syroco"
+url:            "https://syroco.github.io/"
 
 # Image directory
 include: 
