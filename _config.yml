@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+gems:             [jekyll-paginate, jekyll-gist]
+# Setup
+title:            PadoZo Dynamics
+tagline:          'Engineering blog'
+description:      'How to control a robotic arm using modern control methods.'
+url:              teams.isir.upmc.fr/SYROCO/
+baseurl:          /
+
+author:
+  name:           'Antoine Hoarau'
+  url:            https://ahoarau.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/syroco/
