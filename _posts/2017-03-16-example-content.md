@@ -85,13 +85,13 @@ Check out tale on [GitHub](https://github.com/chesterhow/tale).
 # Code and Syntax Highlighting
 Use back-ticks for `inline code`. Multi-line code snippets are supported too through Pygments.
 
-{% highlight js %}
+{% highlight js linenos %}
 // Sample javascript code
 var s = "JavaScript syntax highlighting";
 alert(s);
 {% endhighlight %}
 
-{% highlight python %}
+{% highlight python linenos %}
 # Sample python code
 s = "Python syntax highlighting"
 print s
@@ -122,7 +122,7 @@ Use `<hr>` for horizontal rules
 and `<br>` for line breaks.
 
 <br>
-{% endhighlight %}
+{% endhighlight linenos %}
 
 Use `<hr>` for horizontal rules
 
