@@ -1,5 +1,5 @@
 # Ignore docs files
-.ssas-cache
+.sass-cache/
 _gh_pages
 _site
 .ruby-version
