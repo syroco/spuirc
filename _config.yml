@@ -4,7 +4,7 @@ collections:
     output: true
     permalink: /:year/:month/:day/:title/
     relative_permalinks: true
-    
+
 # Setup
 title:          "SPUIRC "
 paginate:       5
@@ -12,8 +12,9 @@ baseurl:        ""
 url:            "https://syroco.github.io"
 
 # Image directory
-include: 
+include:
     - _img
+    - _favicon
 # Assets
 sass:
   sass_dir:     _sass
